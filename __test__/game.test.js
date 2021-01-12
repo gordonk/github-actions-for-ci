@@ -1,6 +1,7 @@
 const Game = require('../src/game').default
 const fs = require('fs')
 
+// test
 describe('App', () => {
   it('Contains the compiled JavaScript', async (done) => {
     fs.readFile('./public/main.js', 'utf8', (err, data) => {
